@@ -6,4 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/alckemistry_game/',
+  build: {
+    assetsDir: 'assets'
+  }
 })
