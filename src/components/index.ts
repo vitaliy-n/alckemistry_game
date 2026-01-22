@@ -1,7 +1,6 @@
 export { ElementCard } from './ElementCard';
 export { DropZone } from './DropZone';
 export { Sidebar } from './Sidebar';
-export { WorkArea } from './WorkArea';
 export { WorkAreaAdvanced } from './WorkAreaAdvanced';
 export { ReactionModal } from './ReactionModal';
 export { Journal } from './Journal';

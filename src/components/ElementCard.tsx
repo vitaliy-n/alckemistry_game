@@ -20,7 +20,6 @@ interface ElementCardProps {
   onClick?: () => void;
   isDragging?: boolean;
   size?: 'small' | 'medium' | 'large';
-  showDescription?: boolean;
   isNew?: boolean;
   reactionCount?: number;
   showReactionHint?: boolean;
@@ -60,7 +59,6 @@ export const ElementCard = ({
   onClick,
   isDragging = false,
   size = 'medium',
-  showDescription = false,
   isNew = false,
   reactionCount = 0,
   showReactionHint = false
